@@ -9,4 +9,16 @@ public class A {
         j = y;
     }
 
+    A(){
+        System.out.println("the constructor of A");
+    }
+
+    void show(){
+        System.out.println("i and j are " + i + "  " + j);
+    }
+    A(int x , int y){
+        i = x;
+        j = y;
+    }
+
 }
