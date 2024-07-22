@@ -1,4 +1,4 @@
-package First10;
+package pkg;
 
 public class ThrowDemo {
     static void demoporc(){

@@ -1,4 +1,4 @@
-package First10;
+package pkg;
 
 public class Exc0 {
     public static void main(String[] args) {

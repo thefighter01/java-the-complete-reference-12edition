@@ -1,4 +1,4 @@
-package First10;
+package pkg;
 
 public class NestTry {
     public static void main(String[] args) {

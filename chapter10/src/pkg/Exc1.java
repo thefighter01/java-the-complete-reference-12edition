@@ -1,6 +1,4 @@
-package First10;
-
-import java.util.Scanner;
+package pkg;
 
 public class Exc1 {
     static void subroutine(){

@@ -1,4 +1,4 @@
-package First10;
+package pkg;
 
 public class MultipleCatches {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package First10;
+package pkg;
 
 import java.util.Random;
 
