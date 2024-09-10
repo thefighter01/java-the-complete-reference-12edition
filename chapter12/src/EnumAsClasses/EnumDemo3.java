@@ -12,5 +12,13 @@ public class EnumDemo3 {
 
             System.out.println(apple + "  costs " + apple.getPrice() + " cents \n");
         }
+        // test for something in my mind
+        // enum can't be superClass and can't be inherit but it can implement interfaces
+        Apple.winesap.setPrice(299);
+        for (Apple apple : Apple.values()) {
+
+            System.out.println(apple + "  costs " + apple.getPrice() + " cents \n");
+        }
+
     }
 }

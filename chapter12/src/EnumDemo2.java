@@ -13,5 +13,11 @@ public class EnumDemo2 {
         System.out.println(ap);
 
 
+        Apple a;
+        // each enumeration constant is an enumeration object of type the enclosing enum
+        a = Apple.valueOf("Jonathan");
+        System.out.println(a);
+
+
     }
 }

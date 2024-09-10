@@ -6,12 +6,12 @@ public class EnumDemo {
     public static void main(String[] args) {
         Apple ap;
 
-        ap = Apple.RedDel;
+        ap = Apple.RedDel; // each identifier is implicitly declared as public static final
 
         System.out.println("value of ap is "+ ap);
         System.out.println();
 
-        ap = Apple.GoldenDel;
+        ap = Apple.Cortland;
 
         if (ap == Apple.GoldenDel)
             System.out.println("apple contains GoldenDel. \n");
@@ -29,9 +29,9 @@ public class EnumDemo {
             case Winesap:
                 System.out.println("apple is Winesap. \n");
                 break;
-            case Cortland:
-                System.out.println("apple is Cortland. \n");
-                break;
+            default:
+                System.out.println("apple is not shit . \n");
+                System.out.println("apple is a fucken shit. \n");
         }
     }
 }
