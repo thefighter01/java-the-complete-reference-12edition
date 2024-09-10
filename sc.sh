@@ -1,12 +1,11 @@
 #! /usr/bin/bash
 
-echo "enter the commit word"
+echo "enter the commit message"
 
-read commitWord;
-
+read commit_message
 
 git add .
 
-git commit -m $commitWord
+git commit -m "$commit_message"
 
-git push origin main;
+git push origin main
